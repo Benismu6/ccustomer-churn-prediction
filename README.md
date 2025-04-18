@@ -21,6 +21,8 @@ This project uses the [Telco Customer Churn Dataset](https://www.kaggle.com/data
 
 ## ✅ Results
 
+![image of model](image.png)
+
 - **Accuracy**: 79.5%
 - **Precision (Churn)**: 63%
 - **Recall (Churn)**: 54%
