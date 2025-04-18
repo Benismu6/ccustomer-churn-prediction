@@ -17,7 +17,23 @@
 - Converted to numeric (`1` = Yes, `0` = No) for modeling:
   - `Partner`, `Dependents`, `PhoneService`, `PaperlessBilling`, `Churn`
 
-## 💡 Next Steps
-- Perform deeper exploratory data analysis (EDA)
-- Handle multi-class categorical variables (e.g., `InternetService`)
-- Perform feature engineering and scaling for model training
+## 🧠 Key Findings & Insights
+
+- Customers on **month-to-month contracts** churned significantly more than those on long-term contracts.
+- Lack of **tech support**, **fiber internet**, and **electronic check payment** were also associated with higher churn rates.
+- The logistic regression model achieved:
+  - **Accuracy**: ~79.5%
+  - **Precision (Churn)**: 63%
+  - **Recall (Churn)**: 54%
+- This suggests the model is solid overall but slightly struggles to catch all actual churners (common with imbalanced data).
+
+---
+
+## 🧰 Tools & Techniques Used
+
+- Python (Pandas, NumPy, Seaborn, Scikit-learn)
+- Jupyter Notebooks
+- Data cleaning, encoding, feature engineering
+- EDA visualizations + churn analysis
+- Logistic Regression modeling + evaluation
+
